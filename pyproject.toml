@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dynamic-ies"
+version = "0.1.0"
+description = "Dynamic forward-pass schedules for instance-dependent early stopping"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Felix Azian"}]
+dependencies = [
+  "numpy>=1.24",
+  "torch>=2.1",
+  "torchvision>=0.16",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

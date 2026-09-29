@@ -1,0 +1,33 @@
+# Local research archive (large datasets, checkpoints, and vendor trees)
+FineTuning/
+IES/
+
+# Papers retained locally; the author's non-confidential report is allow-listed
+*.pdf
+!Internship_report_Felix_Azian_2025.pdf
+
+# Downloaded datasets and generated experiment artifacts
+data/
+checkpoints/
+outputs/
+runs/
+wandb/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
