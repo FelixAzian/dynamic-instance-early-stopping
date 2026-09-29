@@ -4,7 +4,7 @@ Research code and results from my 2025 project at the University of Sydney AI Ce
 
 > **My contribution.** I designed and benchmarked static, epoch-based, learning-rate-aware, and feedback-based forward-pass schedules; evaluated a late-training switch from second- to first-order loss differences; and investigated the feasibility of applying IES to supervised fine-tuning of causal language models.
 
-This work builds on the ICLR 2025 Spotlight paper [Instance-dependent Early Stopping](https://arxiv.org/abs/2502.07547) by Suqin Yuan, Runqi Lin, Lei Feng, Bo Han, and Tongliang Liu. The original authors' [reference implementation](https://github.com/tmllab/2025_ICLR_IES) should be cited alongside this project.
+This work builds on the ICLR 2025 Spotlight paper [Instance-dependent Early Stopping](https://arxiv.org/abs/2502.07547) by Suqin Yuan, Runqi Lin, Lei Feng, Bo Han, and Tongliang Liu. This research resulted in the journal paper [Instance-Dependent Early Stopping for Adaptive Data Pruning](https://www.computer.org/csdl/journal/tp/2026/10/11517544/2gswlhfa9tm), published in *IEEE Transactions on Pattern Analysis and Machine Intelligence* (TPAMI), with Felix Azian as a co-author.
 
 ## Main result
 

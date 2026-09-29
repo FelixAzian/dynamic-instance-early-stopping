@@ -14,6 +14,14 @@ This project extends:
 
 Reference implementation: https://github.com/tmllab/2025_ICLR_IES
 
+## Resulting publication
+
+This research contributed to:
+
+> Suqin Yuan, Runqi Lin, Felix Azian, Lei Feng, Bo Han, Gang Niu, Masashi Sugiyama, and Tongliang Liu. “Instance-Dependent Early Stopping for Adaptive Data Pruning.” *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 2026. https://doi.org/10.1109/TPAMI.2026.3693108
+
+IEEE Computer Society publication page: https://www.computer.org/csdl/journal/tp/2026/10/11517544/2gswlhfa9tm
+
 The clean implementation in this repository calls `torchvision`'s ResNet API and does not redistribute the upstream repository's unchanged `resnet.py`. Because the upstream repository does not state a software license, this repository does not infer one.
 
 ## Third-party tools used in the exploratory study
